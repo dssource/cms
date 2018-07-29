@@ -1,0 +1,1161 @@
+2018-07-05 12:11:14 [-][-][-][error][yii\base\InvalidArgumentException] exception 'yii\base\InvalidArgumentException' with message 'Invalid path alias: @dssource/basic/migration' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\BaseYii.php:154
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(127): yii\BaseYii::getAlias('@dssource/basic...')
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\MigrateController.php(181): yii\console\controllers\BaseMigrateController->beforeAction(Object(yii\base\InlineAction))
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(155): yii\console\controllers\MigrateController->beforeAction(Object(yii\base\InlineAction))
+#3 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#6 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#9 {main}
+2018-07-05 12:11:14 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x000A08EE'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00100C04'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00130B68'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '8340'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '3484'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SYS00512'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530781874.7567
+    'REQUEST_TIME' => 1530781874
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=@dssource/basic/migration'
+    ]
+    'argc' => 3
+]
+2018-07-05 12:20:31 [-][-][-][error][yii\base\InvalidConfigException] exception 'yii\base\InvalidConfigException' with message 'You should configure "authManager" component to use database before executing this migration.' in D:\OS\OpenServer\domains\gitcms\vendor\dssource\basic\migration\m000000_000005_rbac_init.php:27
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\dssource\basic\migration\m000000_000005_rbac_init.php(51): m000000_000005_rbac_init->getAuthManager()
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m000000_000005_rbac_init->up()
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m000000_000005_...')
+#3 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#6 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#8 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#9 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#10 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#11 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#12 {main}
+2018-07-05 12:20:24 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x000A08EE'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00100C04'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00130B68'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '8340'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '3484'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SYS00512'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530782424.3015
+    'REQUEST_TIME' => 1530782424
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=vendor/dssource/basic/migration'
+    ]
+    'argc' => 3
+]
+2018-07-06 13:46:13 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'The step argument must be greater than 0.' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:237
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionDown('m000000_000004_...')
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('down', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('down', Array)
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#6 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#9 {main}
+2018-07-06 13:46:13 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x000F0B84'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00170B50'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00080D32'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '7780'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '9076'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SYS00512'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530873973.2901
+    'REQUEST_TIME' => 1530873973
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate/down'
+        2 => 'm000000_000004_menu'
+        3 => '--migrationPath=vendor/dssource/migration'
+    ]
+    'argc' => 4
+]
+2018-07-06 13:46:22 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'The step argument must be greater than 0.' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php:237
+Stack trace:
+#0 [internal function]: yii\console\controllers\BaseMigrateController->actionDown('m000000_000004_...')
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#3 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('down', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('down', Array)
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate/down', Array)
+#6 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate/down', Array)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#8 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#9 {main}
+2018-07-06 13:46:22 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x000F0B84'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x00170B50'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00080D32'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '7780'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '9076'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\SYS00512'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1530873982.0301
+    'REQUEST_TIME' => 1530873982
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate/down'
+        2 => 'm000000_000004_menu'
+    ]
+    'argc' => 3
+]
+2018-07-27 11:33:09 [-][-][-][error][yii\console\Exception] exception 'yii\console\Exception' with message 'Unknown option: --migrartionPath' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php:139
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#3 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#4 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#5 {main}
+2018-07-27 11:33:08 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x001805C8'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x002E06E8'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00140966'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '6748'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '9200'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\VSYS00026'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1532680388.7748
+    'REQUEST_TIME' => 1532680388
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate'
+        2 => '--migrartionPath=vendor\\dssource\\clients\\migration'
+    ]
+    'argc' => 3
+]
+2018-07-27 11:33:24 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,
+	`name` default rate,
+	`discount_factor` 1,
+	`comment` default rate,
+	`create' at line 2' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php:1274
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1274): PDOStatement->execute()
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `d...')
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 D:\OS\OpenServer\domains\gitcms\vendor\dssource\clients\migration\m000000_000000_clients.php(81): yii\db\Migration->createTable('ds_clients_rate', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m000000_000000_clients->up()
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m000000_000000_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42000]: Syntax error or access violation: 1064 You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,
+	`name` default rate,
+	`discount_factor` 1,
+	`comment` default rate,
+	`create' at line 2
+The SQL being executed was: CREATE TABLE `ds_clients_rate` (
+	`id` 1,
+	`name` default rate,
+	`discount_factor` 1,
+	`comment` default rate,
+	`create_at` 1532680404,
+	`is_active` 1
+)' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1279): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `d...')
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `d...')
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 D:\OS\OpenServer\domains\gitcms\vendor\dssource\clients\migration\m000000_000000_clients.php(81): yii\db\Migration->createTable('ds_clients_rate', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m000000_000000_clients->up()
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m000000_000000_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42000
+    [1] => 1064
+    [2] => You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '1,
+	`name` default rate,
+	`discount_factor` 1,
+	`comment` default rate,
+	`create' at line 2
+)
+
+2018-07-27 11:33:20 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x001805C8'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x002E06E8'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00140966'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '6748'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '9200'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\VSYS00026'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1532680400.4938
+    'REQUEST_TIME' => 1532680400
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=vendor\\dssource\\clients\\migration'
+    ]
+    'argc' => 3
+]
+2018-07-27 11:34:42 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'ds_clients' already exists' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php:1274
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1274): PDOStatement->execute()
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `d...')
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 D:\OS\OpenServer\domains\gitcms\vendor\dssource\clients\migration\m000000_000000_clients.php(31): yii\db\Migration->createTable('ds_clients', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m000000_000000_clients->up()
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m000000_000000_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'ds_clients' already exists
+The SQL being executed was: CREATE TABLE `ds_clients` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`id_account` int(11),
+	`name` text,
+	`surname` text,
+	`last_name` text,
+	`phone` text,
+	`mobile_phone` text,
+	`email` text,
+	`photo` text,
+	`website` text,
+	`balance` float,
+	`rate` float,
+	`comment` text,
+	`create_at` int(11),
+	`is_active` tinyint(1) DEFAULT FALSE
+)' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1279): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `d...')
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `d...')
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 D:\OS\OpenServer\domains\gitcms\vendor\dssource\clients\migration\m000000_000000_clients.php(31): yii\db\Migration->createTable('ds_clients', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m000000_000000_clients->up()
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m000000_000000_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'ds_clients' already exists
+)
+
+2018-07-27 11:34:41 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x001805C8'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x002E06E8'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00140966'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '6748'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '9200'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\VSYS00026'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1532680481.5559
+    'REQUEST_TIME' => 1532680481
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=vendor\\dssource\\clients\\migration'
+    ]
+    'argc' => 3
+]
+2018-07-27 13:30:03 [-][-][-][error][yii\db\Exception] exception 'PDOException' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'ds_clients_balance_history' already exists' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php:1274
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1274): PDOStatement->execute()
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `d...')
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 D:\OS\OpenServer\domains\gitcms\vendor\dssource\clients\migration\m000000_000000_clients.php(51): yii\db\Migration->createTable('ds_clients_bala...', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m000000_000000_clients->up()
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m000000_000000_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#15 {main}
+
+Next exception 'yii\db\Exception' with message 'SQLSTATE[42S01]: Base table or view already exists: 1050 Table 'ds_clients_balance_history' already exists
+The SQL being executed was: CREATE TABLE `ds_clients_balance_history` (
+	`id` int(11) NOT NULL AUTO_INCREMENT PRIMARY KEY,
+	`id_client` int(11),
+	`sum` float,
+	`report` tinyint(1) DEFAULT FALSE,
+	`comment` text,
+	`create_at` int(11),
+	`is_active` tinyint(1) DEFAULT TRUE
+)' in D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Schema.php:664
+Stack trace:
+#0 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1279): yii\db\Schema->convertException(Object(PDOException), 'CREATE TABLE `d...')
+#1 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Command.php(1091): yii\db\Command->internalExecute('CREATE TABLE `d...')
+#2 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\db\Migration.php(323): yii\db\Command->execute()
+#3 D:\OS\OpenServer\domains\gitcms\vendor\dssource\clients\migration\m000000_000000_clients.php(51): yii\db\Migration->createTable('ds_clients_bala...', Array)
+#4 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(725): m000000_000000_clients->up()
+#5 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\controllers\BaseMigrateController.php(199): yii\console\controllers\BaseMigrateController->migrateUp('m000000_000000_...')
+#6 [internal function]: yii\console\controllers\BaseMigrateController->actionUp(0)
+#7 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\InlineAction.php(57): call_user_func_array(Array, Array)
+#8 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#9 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Controller.php(148): yii\base\Controller->runAction('', Array)
+#10 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Module.php(528): yii\console\Controller->runAction('', Array)
+#11 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(180): yii\base\Module->runAction('migrate', Array)
+#12 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\console\Application.php(147): yii\console\Application->runAction('migrate', Array)
+#13 D:\OS\OpenServer\domains\gitcms\vendor\yiisoft\yii2\base\Application.php(386): yii\console\Application->handleRequest(Object(yii\console\Request))
+#14 D:\OS\OpenServer\domains\gitcms\yii(16): yii\base\Application->run()
+#15 {main}
+Additional Information:
+Array
+(
+    [0] => 42S01
+    [1] => 1050
+    [2] => Table 'ds_clients_balance_history' already exists
+)
+
+2018-07-27 13:30:01 [-][-][-][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = []
+
+$_SERVER = [
+    'ALLUSERSPROFILE' => 'C:\\ProgramData'
+    'ANSICON' => '123x9000 (123x25)'
+    'ANSICON_DEF' => '7'
+    'APPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Roaming'
+    'CommonProgramFiles' => 'C:\\Program Files\\Common Files'
+    'CommonProgramFiles(x86)' => 'C:\\Program Files (x86)\\Common Files'
+    'CommonProgramW6432' => 'C:\\Program Files\\Common Files'
+    'COMPUTERNAME' => 'PC010178'
+    'ComSpec' => 'C:\\Windows\\system32\\cmd.exe'
+    'ConEmuANSI' => 'ON'
+    'ConEmuAnsiLog' => ''
+    'ConEmuArgs' => '/Single'
+    'ConEmuBackHWND' => '0x001805C8'
+    'ConEmuBaseDir' => 'D:\\os\\openserver\\modules\\conemu\\ConEmu'
+    'ConEmuBuild' => '150813g'
+    'ConEmuConfig' => ''
+    'ConEmuDir' => 'D:\\os\\openserver\\modules\\conemu'
+    'ConEmuDrawHWND' => '0x002E06E8'
+    'ConEmuDrive' => 'D:'
+    'ConEmuHooks' => 'Enabled'
+    'ConEmuHWND' => '0x00140966'
+    'ConEmuIsAdmin' => 'ADMIN'
+    'ConEmuPID' => '6748'
+    'ConEmuPrompt0' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S'
+    'ConEmuPrompt1' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m'
+    'ConEmuPrompt2' => '$_$E[90m$$'
+    'ConEmuPrompt3' => '$E[m$S'
+    'ConEmuServerPID' => '9200'
+    'ConEmuWorkDir' => 'd:\\os\\openserver'
+    'ConEmuWorkDrive' => 'd:'
+    'FP_NO_HOST_CHECK' => 'NO'
+    'HOME' => 'd:\\os\\openserver'
+    'HOMEDRIVE' => 'd:'
+    'HOMEPATH' => '\\os\\openserver'
+    'LOCALAPPDATA' => 'C:\\Users\\godinskij_ai\\AppData\\Local'
+    'LOGONSERVER' => '\\\\VSYS00026'
+    'MAGICK_CODER_FILTER_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\filters'
+    'MAGICK_CODER_MODULE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick\\modules\\coders'
+    'MAGICK_CONFIGURE_PATH' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_HOME' => 'd:\\os\\openserver\\modules\\imagemagick'
+    'MAGICK_TEMPORARY_PATH' => 'd:\\os\\openserver\\userdata\\temp'
+    'NUMBER_OF_PROCESSORS' => '4'
+    'OPENSSL_CONF' => 'd:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\conf\\openssl.cnf'
+    'OS' => 'Windows_NT'
+    'Path' => 'D:\\os\\openserver\\modules\\conemu;D:\\os\\openserver\\modules\\conemu\\ConEmu;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\ext;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\pear\\bin;d:\\os\\openserver\\modules\\php\\PHP-5.5-x64;d:\\os\\openserver\\modules\\imagemagick;d:\\os\\openserver\\modules\\wget\\bin;d:\\os\\openserver\\modules\\git;d:\\os\\openserver\\modules\\git\\bin;d:\\os\\openserver\\modules\\git\\mingw\\bin;d:\\os\\openserver\\modules\\git\\cmd;d:\\os\\openserver\\modules\\database\\MySQL-5.5-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64\\bin;d:\\os\\openserver\\modules\\http\\Apache-2.4-x64;C:\\Windows\\system32;C:\\Windows;C:\\Windows\\system32\\Wbem;C:\\Windows\\SysWOW64'
+    'PATHEXT' => '.COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC'
+    'PHPBIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHPDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHPRC' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64'
+    'PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINARY' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_BINDIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_COMMAND' => 'php.exe'
+    'PHP_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\'
+    'PHP_INI' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.ini'
+    'PHP_PEAR_BIN_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_DATA_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\data'
+    'PHP_PEAR_DOC_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\docs'
+    'PHP_PEAR_INSTALL_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\pear'
+    'PHP_PEAR_PHP_BIN' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\php.exe'
+    'PHP_PEAR_SYSCONF_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR'
+    'PHP_PEAR_TEST_DIR' => 'd:\\os\\openserver\\modules\\php\\PHP-5.5-x64\\PEAR\\tests'
+    'PLINK_PROTOCOL' => 'ssh'
+    'PLMVIS_82_LIBPATH' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SAPgui\\Program'
+    'PROCESSOR_ARCHITECTURE' => 'AMD64'
+    'PROCESSOR_IDENTIFIER' => 'Intel64 Family 6 Model 58 Stepping 9, GenuineIntel'
+    'PROCESSOR_LEVEL' => '6'
+    'PROCESSOR_REVISION' => '3a09'
+    'ProgramData' => 'C:\\ProgramData'
+    'ProgramFiles' => 'C:\\Program Files'
+    'ProgramFiles(x86)' => 'C:\\Program Files (x86)'
+    'ProgramW6432' => 'C:\\Program Files'
+    'PROMPT' => '$E[32m$E]9;8;\"USERNAME\"$E\\@$E]9;8;\"COMPUTERNAME\"$E\\$S$E[92m$P$E[90m$_$E[90m$$$E[m$S'
+    'PSModulePath' => 'C:\\Windows\\system32\\WindowsPowerShell\\v1.0\\Modules\\'
+    'PUBLIC' => 'C:\\Users\\Public'
+    'SAPLOGON_INI_FILE' => '\\\\SYS00036.d0.vsw.ru\\SAPInstServ\\_Files_\\SAPLOGON.INI'
+    'SNC_LIB' => 'C:\\Program Files (x86)\\SAP\\FrontEnd\\SapGui\\Encryption\\secgss.dll'
+    'SystemDrive' => 'C:'
+    'SystemRoot' => 'C:\\Windows'
+    'TCVIS_ENABLE_AERO' => 'True'
+    'TEMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'TERM' => 'msys'
+    'TMP' => 'd:\\os\\openserver\\userdata\\temp'
+    'UATDATA' => 'C:\\Windows\\CCM\\UATData\\D9F8C395-CAB8-491d-B8AC-179A1FE1BE77'
+    'USERDNSDOMAIN' => 'D0.VSW.RU'
+    'USERDOMAIN' => 'D0'
+    'USERNAME' => 'GODINSKIJ_AI'
+    'USERPROFILE' => 'C:\\Users\\godinskij_ai'
+    'windir' => 'C:\\Windows'
+    'windows_tracing_flags' => '3'
+    'YII_PATH' => 'd:\\OS\\OpenServer\\domains\\gitcms\\'
+    '__COMPAT_LAYER' => 'RunAsAdmin'
+    'PHP_SELF' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_NAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'SCRIPT_FILENAME' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'PATH_TRANSLATED' => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+    'DOCUMENT_ROOT' => ''
+    'REQUEST_TIME_FLOAT' => 1532687401.6639
+    'REQUEST_TIME' => 1532687401
+    'argv' => [
+        0 => 'd:\\OS\\OpenServer\\domains\\gitcms\\yii'
+        1 => 'migrate'
+        2 => '--migrationPath=vendor\\dssource\\clients\\migration'
+    ]
+    'argc' => 3
+]

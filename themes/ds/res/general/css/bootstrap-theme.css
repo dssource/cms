@@ -1,0 +1,144 @@
+body {
+    color: #bababa;
+    font-family: Monospace;
+    font-size: 12pt;
+    line-height: 1.0;
+}
+.table-striped > tbody > tr:nth-of-type(odd) {
+    background-color: #3b3e41;
+}
+.form-control[disabled], .form-control[readonly], fieldset[disabled] .form-control {
+    background-color: #585c5f;
+    opacity: 1;
+}
+.form-control, .input-group-addon, textarea, input {
+    background: #6d7174;
+    color: #bababa;
+    border-color: #313335;
+}
+.breadcrumb {
+    background-color: transparent;
+}
+a {
+    text-decoration: none;
+    color: #cb9140;
+}
+a:hover {
+    text-decoration: none;
+    color: #e0a047;
+}
+.list-group-item {
+    background: #313335;
+    color: #ffffff;
+}
+.navbar {
+    margin-bottom: 0px;
+}
+.navbar-nav > li > .dropdown-menu {
+    background: #313335;
+    color: #fffafa;
+}
+.dropdown-menu > li > a {
+    color: #fffafa;
+}
+.dropdown-menu > li > a:hover, .dropdown-menu > li > a:focus{
+    color: #fffafa;
+    background: #3c3f41;
+}
+.navbar-nav {
+    letter-spacing: .0625rem;
+}
+
+.navbar-inverse {
+    background-color: #F3A530;
+    border-color: #F3A530;
+    border-radius: 0px;
+}
+.navbar-inverse .navbar-nav > li > a {
+    color: #fff;
+    font-weight: 400;
+}
+.navbar-toggle {
+    background: #000;
+}
+.s-color {
+    color: #f3a530;
+}
+
+.s-border {
+    border: 2px solid #f3a530;
+}
+.s-title {
+    min-height: 66px;
+    line-height: 2;
+}
+.s-title:hover {
+    background: #f3a530;
+    color: #000;
+    border-color: #303030;
+    font-weight: bold;
+}
+.no-padding-top {
+    padding-top: 0px;
+}
+section {
+    min-height: 300px;
+    padding-top: 40px;
+    padding-bottom: 100px;
+}
+.white {
+    background: #fff;
+    color: #000;
+}
+.white h1 {
+    margin-bottom: 40px;
+    color: #f3a530;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+.black {
+    background: #000;
+}
+.black h1 {
+    margin-bottom: 40px;
+    color: #f3a530;
+    text-decoration: underline;
+    text-shadow: 2px 2px 2px rgba(150, 150, 150, 1);
+}
+
+#services {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.fix-height-256 {
+    max-height: 256px;
+    overflow: hidden;
+}
+#portfolio .v-block, #portfolio .h-block {
+    width: 256px;
+    height: 256px;
+    z-index: 10;
+    display: inline-block;
+}
+#portfolio .h-block {
+    display: none;
+    position: relative;
+    top: -256px;
+    z-index: 20;
+    line-height: 256px;
+    background: rgba(000, 000, 000, 0.8);
+}
+#portfolio .h-block p {
+    line-height: normal;
+    display: inline-block;
+    vertical-align: middle;
+    font-weight: bold;
+    font-size: 18pt;
+    color: #f3a530;
+    text-shadow: 2px 2px 1px rgba(150, 150, 150, 1);
+}
+
+footer {
+    padding: 50px 100px;
+    background: #000;
+}

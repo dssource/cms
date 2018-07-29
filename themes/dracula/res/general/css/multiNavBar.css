@@ -1,0 +1,60 @@
+@media (min-width: 767px) {
+    .navbar-nav .dropdown-menu .caret {
+        transform: rotate(-90deg);
+    }
+}
+
+.navbar-right .dropdown-menu li a .caret {
+    display: inline-block;
+    width: 0;
+    height: 0;
+    margin-left: 2px;
+    vertical-align: middle;
+    border-bottom: 4px dashed;
+    border-top: 4px solid transparent;
+    border-right: 4px solid transparent;
+}
+.nav .open > a, .nav .open > a:hover, .nav .open > a:focus {
+    background-color: #313335;
+    border-color: #fffafa;
+}
+
+.dropdown-menu {
+    background: inherit;
+}
+.inset {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    box-shadow:
+            inset 0 0 0 2px rgba(255,255,255,0.6),
+            0 1px 1px rgba(0,0,0,0.1);
+    background-color: transparent !important;
+    z-index: 999;
+    display: inline-block;
+}
+
+.inset img {
+    border-radius: inherit;
+    width: inherit;
+    height: inherit;
+    display: block;
+    position: relative;
+    z-index: 998;
+}
+.inset-logo {
+    width: 84px;
+    height: 48px;
+    z-index: 999;
+}
+
+.inset-logo img {
+    width: inherit;
+    height: inherit;
+    display: block;
+    position: relative;
+    z-index: 998;
+}
+.float-right {
+    float: right;
+}
